@@ -1,6 +1,6 @@
 # Fikra API
 
-OpenAI-compatible inference API from Nairobi. One `/v1` surface for open-weight models, DeepSeek first: `deepseek-v4.1-flash` at $0.045 per 1M input and $0.09 per 1M output on a 1M context (1017 build $0.05/$0.11, 0731 build $0.045/$0.10, prices verified 2026-10-19). Also GLM 5.3 / 5.3 Flash / 5.2, Kimi K3, StepFun Step 5 preview, Qwen 3.8 27B, MiMo V2.6 Pro, Nemotron 3.5 Super VL, a Gemini 4 Argon route and house lanes.
+OpenAI-compatible inference API from Nairobi. One `/v1` surface for open-weight models, DeepSeek first: `deepseek-v4.1-flash` at $0.05 per 1M input and $0.11 per 1M output on a 1M context, cached input $0.025 (1017 build $0.05/$0.11, 0731 build $0.045/$0.17, prices verified 2026-10-24). Also GLM 5.3 / 5.3 Flash / 5.2, Kimi K3, StepFun Step 5 preview, Qwen 3.8 27B, MiMo V2.6 Pro, Nemotron 3.5 Super VL, a Gemini 4 Argon route and house lanes.
 
 Billed per token in USD, $1 minimum top-up, M-Pesa and cards.
 
@@ -16,6 +16,17 @@ Billed per token in USD, $1 minimum top-up, M-Pesa and cards.
 - Base URL: https://api.fikraapi.co.ke/v1
 - Pricing: https://fikraapi.co.ke/pricing
 - Docs: https://fikraapi.co.ke/docs
+
+## Agent-assisted accounts
+
+Any AI agent, bot or chat app can create a Fikra API account for a human, then use the full API. The agent gets a 6-hour delegated token, creates and revokes keys, calls chat completions, reads balance and usage, and tops up.
+
+- No signup credit on agent-created accounts. The agent must top up before chat works.
+- Human claim link converts the provisional account into a full account.
+- Checkout links for human payment. Saved-card charges up to $100/day after the human claims the account and saves a card.
+- No card data reaches the agent or the logs.
+
+Docs: https://fikraapi.co.ke/for-agents. Machine-readable: https://fikraapi.co.ke/agents.json.
 
 ## Surface
 
