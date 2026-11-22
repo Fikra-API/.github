@@ -56,7 +56,7 @@ A selection of the catalog. Prices are USD per 1M input / output tokens, checked
 ## API
 
 - Base URL: `https://api.fikraapi.co.ke/v1` (OpenAI-compatible: Chat Completions and Responses)
-- Billing: per token in USD from a $1 top-up, by card or M-Pesa
+- Billing: per token in USD from a $5 top-up, by card or M-Pesa
 - [Pricing](https://fikraapi.co.ke/pricing) · [Docs](https://fikraapi.co.ke/docs) · [Status](https://fikraapi.co.ke/status)
 
 ## Repos
